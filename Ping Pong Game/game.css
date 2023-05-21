@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aquamarine;
+}
+#container {
+    position: relative;
+}
+/* Start of Ball Styles */
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: fixed;
+    top: 20px;
+    left: 52.5%;
+    border-radius: 50%;
+    border: black;
+}
+/* End of Ball styles */
+/* styles on both the bars */
+#rod1, #rod2 {
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#rod1 {
+    background-color: rgb(255, 0, 30);
+    top: 0px;    
+}
+
+#rod2 {
+    background-color: rgb(101, 226, 43);
+    bottom: 0px;
+}
